@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html>
-<!--It's very boring-->
 
 <head>
     <meta charset="utf-8">
-    <title>Project: Event invite</title>
+    <title>Challenge: Classes of elements</title>
     <style>
-        h1 {
-            color: rgb(98, 158, 98);
+        h2.metal {
+            background-color: red;
+            color: white;
         }
 
-        body {
-            font-family: cursive;
+        h2.non-metal {
+            padding: 5px;
+            background-color: blue;
+            color: white;
         }
 
-        .photo-gallery {
-            padding: 25px 50px 75px 100px;
-            background: rgb(255, 254, 217);
+        h2.semi-metal {
+            background-color: purple;
+            color: white;
         }
 
-        .photo {
-            width: 400px;
-            margin: 6px;
-            border: 10px solid rgb(207, 128, 128);
-            border-top: 10px solid purple;
+        .metal {
+            color: red;
+        }
+
+        .non-metal {
+            color: blue;
+        }
+
+        .semi-metal {
+            color: purple;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>You're invited!</h1>
-    <h2>To Dog Party!</h2>
+    <h1>The Periodic Table</h1>
 
-    <p>The details:</p>
+    <p>
+        There are three broad classes of elements:
+        <strong class="metal">metals</strong>,
+        <strong class="non-metal">non-metals</strong>,
+        and <strong class="semi-metal">semi-metals</strong>.
+    </p>
+
+    <h2 class="metal">Metals</h2>
+
     <ul>
-        <li>Date: 26th August</li>
-        <li>Requirements: Have a dog</li>
+        <li>Solid</li>
+        <li>Good conductors of electricity</li>
+        <li>Ductile</li>
+        <li>Malleable</li>
     </ul>
 
-    <div class="photo-gallery">
+    <h2 class="non-metal">Non-metals</h2>
 
-        <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-getting-tan.png">
+    <ul>
+        <li>Brittle</li>
+        <li>Poor conductors</li>
+    </ul>
 
-        <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-laying-down.png">
+    <h2 class="semi-metal">Semi-metals (Metalloids)</h2>
 
-        <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-wagging-tongue.png">
-
-    </div>
+    <ul>
+        <li>Partially conduct electricity</li>
+    </ul>
 
 </body>
 

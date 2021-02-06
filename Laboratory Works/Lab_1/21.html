@@ -3,45 +3,55 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Challenge: A classy gallery</title>
+    <title>Challenge: Descendants of Khan</title>
     <style>
-        body {
+        .emperor {
             font-family: cursive;
         }
 
-        .image-small {
-            width: 150px;
-
+        .reign {
+            font-family: monospace;
         }
 
-        .image-medium {
-            width: 200px;
+        table .emperor {
+            background-color: red;
         }
 
-        .black-frame {
-            border: 8px double rgb(38, 38, 38);
-        }
-
-        .gold-frame {
-            border: 10px ridge rgb(255, 183, 0);
-        }
-
-        .silver-frame {
-            border: 10px groove rgb(204, 204, 204);
+        table .reign {
+            background-color: blue;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>A classy gallery</h1>
+    <h1>Descendants of Khan</h1>
 
-    <img class="image-small black-frame" src="https://www.kasandbox.org/programming-images/animals/cat.png">
+    <p><strong class="emperor">Genghis Khan</strong> (<span class="reign">1206-1227</span>) was a emperor who had many
+        sons and daughters, and many famous emperors are descended from him. (But not Sal Khan!)</p>
 
-    <img class="image-medium gold-frame" src="https://www.kasandbox.org/programming-images/animals/fox.png">
-
-    <img class="image-medium silver-frame" src="https://www.kasandbox.org/programming-images/animals/penguins.png">
-
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Reign</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="emperor">Ögedei Khan</td>
+                <td class="reign">1229-1241</td>
+            </tr>
+            <tr>
+                <td class="emperor">Kublai Khan</td>
+                <td class="reign">1260-1294</td>
+            </tr>
+            <tr>
+                <td class="emperor">Temür Khan</td>
+                <td class="reign">1294-1307</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 
