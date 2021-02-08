@@ -1,0 +1,202 @@
+/*#region GENERAL SETTINGS*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.log-in-container,
+input,
+hr,
+.sign-up-container {
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.fb-login,
+.sign-up-container,
+.footer-container,
+.forget-pass-container {
+    text-align: center;
+}
+
+.or-container,
+.fb-login {
+    margin-bottom: 1rem;
+}
+
+.fb-text,
+.sign-up-container a,
+.forget-pass-container a,
+.insta-other-page a,
+.insta-entertainment-page a,
+.copyright-name a {
+    text-decoration: none;
+}
+
+
+/*#endregion GENERAL SETTINGS*/
+
+
+/*#region LEFT CONTAINER settings*/
+
+.left-image-container {
+    margin-right: 1.5rem;
+}
+
+.insta-brand-img {
+    width: 450px;
+}
+
+
+/*#endregion LEFT CONTAINER settings*/
+
+
+/*#region RIGHT CONTAINER settings*/
+
+.right-form-container {
+    margin-left: 1.5rem;
+    width: 400px;
+}
+
+.text-logo {
+    width: 200px;
+}
+
+.insta-text-logo {
+    text-align: center;
+}
+
+
+.log-in-container {
+    padding: 2rem;
+    margin: 6rem 0 1rem;
+    background-color: white;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type='text'] {
+    margin-bottom: 0.5rem;
+}
+
+.log-in-btn {
+    background-color: #3095f3;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.or-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    width: 100px;
+}
+
+.or-text-container P {
+    color: rgb(104, 104, 104);
+}
+
+.fa-facebook-square {
+    color: #3d5a98;
+    margin: 5px 5px 5px 0px;
+    font-size: 20px;
+}
+
+.fb-text {
+    font-size: 14px;
+    color: #3d5a98;
+}
+
+.forget-pass-container a {
+    color: #3d5a98;
+}
+
+.sign-up-container {
+    background-color: white;
+    padding: 0.5rem;
+}
+
+
+/*#endregion Right CONTAINER settings*/
+
+
+/*#region STORE APP CONTAINER settings*/
+
+.the-apps-container p {
+    text-align: center;
+}
+
+.type-of-app-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.type-of-app-container>img {
+    height: 40px;
+    margin: 0 0.5rem 0 0;
+}
+
+
+/*#endregion STORE APPS CONTAINER settings*/
+
+
+/*#region Footer settings*/
+
+.footer-container {
+    color: grey;
+    margin: 2rem 0;
+}
+
+.insta-other-page a,
+.insta-entertainment-page a,
+.copyright-name a {
+    color: grey;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.insta-other-page,
+.insta-entertainment-page,
+.copyright-name {
+    margin-bottom: 1.5rem;
+}
+
+
+/*#endregion Footer settings*/
+
+
+
+select {
+    padding: 10px;
+    border: none;
+    margin: 0 10px 0 0;
+    color: grey;
+}
