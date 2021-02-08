@@ -1,7 +1,4 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    outline: 0px;
     text-decoration: none;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -9,7 +6,7 @@
     -ms-box-sizing: border-box;
 }
 
-body {
+.loginsignup {
     font-family: Arial;
     font-size: 14px;
     font-weight: normal;
@@ -22,6 +19,7 @@ body {
 }
 
 .container {
+    
     margin: auto;
 }
 
@@ -31,11 +29,15 @@ body {
 }
 
 .justify-content-between {
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .content-left {
-    max-width: 500px;
+    
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 325px;
+    
 }
 
 .content-left h1 {
@@ -53,8 +55,9 @@ body {
 }
 
 .content-right {
-    max-width: 450px;
+    
     margin: auto;
+    margin-right: 350px;
     text-align: center;
 }
 
@@ -128,3 +131,37 @@ body {
     font-weight: 600px;
 }
 
+.containerFooter{
+    text-align: center;
+    margin-top: 24px;
+    width: 980px;
+}
+.containerUl{
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.list{
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.6;
+    list-style: none;
+    padding-right: 20px;
+}
+.aNone{
+    text-decoration: none;
+    color: #737373;
+}
+.list .notSelected {
+    color: #8a8d91;
+}
+.under{
+    display: flex;
+    flex-wrap: wrap;
+}
+.facebook{
+    margin-top: 10px;
+}
+/*Footer*/
