@@ -45,12 +45,6 @@ hr,
     text-decoration: none;
 }
 
-
-/*#endregion GENERAL SETTINGS*/
-
-
-/*#region LEFT CONTAINER settings*/
-
 .left-image-container {
     margin-left: -5rem;
 }
@@ -58,12 +52,6 @@ hr,
 .insta-brand-img {
     width: 450px;
 }
-
-
-/*#endregion LEFT CONTAINER settings*/
-
-
-/*#region RIGHT CONTAINER settings*/
 
 .right-form-container {
     margin-bottom: 1px;
@@ -78,7 +66,6 @@ hr,
 .insta-text-logo {
     text-align: center;
 }
-
 
 .log-in-container {
     padding: 2rem;
@@ -147,12 +134,6 @@ hr {
     padding: 0.5rem;
 }
 
-
-/*#endregion Right CONTAINER settings*/
-
-
-/*#region STORE APP CONTAINER settings*/
-
 .the-apps-container p {
     text-align: center;
 }
@@ -167,12 +148,6 @@ hr {
     height: 40px;
     margin: 0 0.5rem 0 0;
 }
-
-
-/*#endregion STORE APPS CONTAINER settings*/
-
-
-/*#region Footer settings*/
 
 .footer-container {
     color: grey;
@@ -191,11 +166,6 @@ hr {
 .copyright-name {
     margin-bottom: 0.5rem;
 }
-
-
-/*#endregion Footer settings*/
-
-
 
 select {
     padding: 10px;
