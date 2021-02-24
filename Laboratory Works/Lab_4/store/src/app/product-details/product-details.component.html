@@ -1,0 +1,27 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+<!--  <h3>{{ product.name }}</h3>-->
+  <h4>{{ product.price | currency }}</h4>
+<!--  <p>{{ product.fullDescription }}</p>-->
+    <app-product-item [product]="product">
+
+    </app-product-item>
+
+<!--  <p *ngIf = "product.rating">-->
+<!--    Rating: {{product.rating}}-->
+<!--  </p>-->
+
+  <img class="second-image" *ngIf = "product.secondImage"
+    src = {{product.secondImage}}  >
+
+  <p *ngIf = "product.fullDescription">
+    About this product: {{product.fullDescription}}
+  </p>
+
+  <button (click)="addToCart(product)">Buy</button>
+<!--  <p>-->
+<!--    <img *ngIf = "product.image" src="{{product.image}}" [class.img]="product">-->
+<!--  </p>-->
+
+</div>
