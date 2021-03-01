@@ -12,6 +12,9 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { ProductItemComponent } from './product-item/product-item.component';
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
+import { CategoryComponent } from './category/category.component';
+import { ProductFilterComponent } from './product-filter/product-filter.component';
+
 
 @NgModule({
   imports: [
@@ -34,7 +37,9 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductDetailsComponent,
     ProductItemComponent,
     CartComponent,
-    ShippingComponent
+    ShippingComponent,
+    ProductFilterComponent,
+    CategoryComponent,
   ],
   providers: [
 

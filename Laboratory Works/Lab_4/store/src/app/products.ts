@@ -10,6 +10,7 @@ export interface Product {
   image: Url;
   secondImage: Url;
   link: Url;
+  categoryId: number;
 }
 
 export const products = [
@@ -22,7 +23,8 @@ export const products = [
     rating: 4.8,
     image: 'https://images-na.ssl-images-amazon.com/images/I/71QSKpbzlQL._AC_SL1500_.jpg',
     secondImage: 'https://m.media-amazon.com/images/I/71PAskE-HJL._AC_SL1500_.jpg',
-    link: 'https://www.amazon.com/NZXT-H510-Management-Water-Cooling-Construction/dp/B07TC76671/ref=pd_vtp_5?pd_rd_w=bjj7F&pf_rd_p=18ed5dd9-54a4-4e64-9eb2-be78385d36ed&pf_rd_r=5XJX6C8FRFBXBV8FVHVR&pd_rd_r=42a7e094-32dd-4507-b94d-dd95d822d685&pd_rd_wg=lvw8H&pd_rd_i=B07TC76671&psc=1'
+    link: 'https://www.amazon.com/NZXT-H510-Management-Water-Cooling-Construction/dp/B07TC76671/ref=pd_vtp_5?pd_rd_w=bjj7F&pf_rd_p=18ed5dd9-54a4-4e64-9eb2-be78385d36ed&pf_rd_r=5XJX6C8FRFBXBV8FVHVR&pd_rd_r=42a7e094-32dd-4507-b94d-dd95d822d685&pd_rd_wg=lvw8H&pd_rd_i=B07TC76671&psc=1',
+    categoryId: 1,
   },
   {
     id: 2,
