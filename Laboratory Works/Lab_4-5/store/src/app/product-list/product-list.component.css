@@ -1,0 +1,19 @@
+.fa-trash {
+  color: white;
+  padding: 3px;
+}
+
+.fa-share-alt {
+  color: white;
+  padding: 3px;
+}
+
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+.inner {
+  margin: 5px;
+  display: inline-block;
+}
