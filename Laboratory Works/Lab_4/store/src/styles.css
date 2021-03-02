@@ -1,6 +1,7 @@
 /* Global Styles */
 
 * {
+
   font-family: 'Roboto', Arial, sans-serif;
   color: #616161;
   box-sizing: border-box;
@@ -128,7 +129,7 @@ app-top-bar h1 {
 .img {
   transition-timing-function: ease-out;
   transition: transform .50s;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 20vw;

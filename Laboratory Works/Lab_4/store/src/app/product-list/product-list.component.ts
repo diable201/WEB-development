@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { products } from '../products';
 
+
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -11,11 +12,27 @@ import { products } from '../products';
 export class ProductListComponent {
   products = products;
 
+
+
+
+
   // tslint:disable-next-line:typedef
   share(product) {
     window.alert(`The product ${product.name} has been shared!`);
     window.open( `https://t.me/share/url?url=${product.link}&text=Hi! Look what I\'ve found on the Amazon.`
     );
+  }
+
+  removeUpload(product) {
+    // get index/position of uploadItem within array
+    const index: number = this.products.indexOf(product);
+
+    // if index returned is negative it means element not found in array
+    // else: (positive) index can be used
+    // e.g. to remove the single element at this position
+    if (index !== -1) {
+      this.products.splice( index, 1 );
+    }
   }
 
   // tslint:disable-next-line:typedef

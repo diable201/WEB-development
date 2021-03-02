@@ -1,0 +1,6 @@
+<p *ngIf = "likesCount === 0">
+  <button (click)="onClick()" >Like me</button>
+</p>
+<p *ngIf = "likesCount >= 1">
+  <button (click)="onClick()" >Like me {{likesCount }} </button>
+</p>

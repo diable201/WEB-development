@@ -14,6 +14,7 @@ import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductFilterComponent } from './product-filter/product-filter.component';
+import { ProductLikeComponent } from './product-like/product-like.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { ProductFilterComponent } from './product-filter/product-filter.componen
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'category/:categoryId', component: CategoryComponent},
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
     ])
@@ -40,6 +42,7 @@ import { ProductFilterComponent } from './product-filter/product-filter.componen
     ShippingComponent,
     ProductFilterComponent,
     CategoryComponent,
+    ProductLikeComponent,
   ],
   providers: [
 

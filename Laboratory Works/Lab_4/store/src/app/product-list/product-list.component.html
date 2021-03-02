@@ -26,16 +26,24 @@
   <p *ngIf = "product.price">
     Price: ${{product.price}}
   </p>
-
-  <button (click) = "share(product)">
-    Share
-  </button>
-
-  <app-product-alerts
-    [product] = "product"
-    (notify) = "onNotify()">
-  </app-product-alerts>
-
+  <div class="btn-group">
+    <button (click) = "share(product)">
+      Share
+    </button>
+<!--    <button>-->
+<!--      Notify Me-->
+      <app-product-like>
+        (click) = "onClick()">
+      </app-product-like>
+      <app-product-alerts
+        [product] = "product"
+        (notify) = "onNotify()">
+      </app-product-alerts>
+<!--    </button>-->
+    <button (click)="removeUpload(product)">
+      Delete
+    </button>
+  </div>
 </div>
 
 <!--

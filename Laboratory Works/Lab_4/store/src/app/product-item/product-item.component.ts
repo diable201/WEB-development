@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {ProductService} from '../product.service';
 import {products} from '../products';
 
 @Component({
@@ -9,7 +11,9 @@ import {products} from '../products';
 
 export class ProductItemComponent implements OnInit {
   @Input() product;
-  constructor() { }
+  constructor(private route: ActivatedRoute,
+              private productService: ProductService,
+              ) { }
 
   ngOnInit(): void {
   }

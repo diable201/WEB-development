@@ -11,6 +11,7 @@ export interface Product {
   secondImage: Url;
   link: Url;
   categoryId: number;
+
 }
 
 export const products = [
@@ -25,6 +26,7 @@ export const products = [
     secondImage: 'https://m.media-amazon.com/images/I/71PAskE-HJL._AC_SL1500_.jpg',
     link: 'https://www.amazon.com/NZXT-H510-Management-Water-Cooling-Construction/dp/B07TC76671/ref=pd_vtp_5?pd_rd_w=bjj7F&pf_rd_p=18ed5dd9-54a4-4e64-9eb2-be78385d36ed&pf_rd_r=5XJX6C8FRFBXBV8FVHVR&pd_rd_r=42a7e094-32dd-4507-b94d-dd95d822d685&pd_rd_wg=lvw8H&pd_rd_i=B07TC76671&psc=1',
     categoryId: 1,
+
   },
   {
     id: 2,
@@ -39,7 +41,8 @@ export const products = [
     rating: 4.7,
     image: 'https://images-na.ssl-images-amazon.com/images/I/71Czt9ypIbL._AC_SL1500_.jpg',
     secondImage: 'https://images-na.ssl-images-amazon.com/images/I/6165QqoVhgL._AC_SL1000_.jpg',
-    link: 'https://www.amazon.com/Seagate-BarraCuda-Internal-Drive-3-5-Inch/dp/B07H2RR55Q/ref=sr_1_6?dchild=1&qid=1614022239&s=computers-intl-ship&sr=1-6'
+    link: 'https://www.amazon.com/Seagate-BarraCuda-Internal-Drive-3-5-Inch/dp/B07H2RR55Q/ref=sr_1_6?dchild=1&qid=1614022239&s=computers-intl-ship&sr=1-6',
+    categoryId: 2,
   },
   {
     id: 3,
@@ -54,7 +57,8 @@ export const products = [
     rating: 4.9,
     image: 'https://images-na.ssl-images-amazon.com/images/I/71WPGXQLcLL._AC_SL1384_.jpg',
     secondImage: 'https://images-na.ssl-images-amazon.com/images/I/716hAjT1uUL._AC_SL1500_.jpg',
-    link: 'https://www.amazon.com/AMD-Ryzen-3600-12-Thread-Processor/dp/B07STGGQ18/ref=pd_bxgy_img_2/130-8393161-9152612?_encoding=UTF8&pd_rd_i=B07STGGQ18&pd_rd_r=f0f5e39f-8da2-44c4-9a23-5771aa6f061a&pd_rd_w=bB3Sc&pd_rd_wg=PSRhU&pf_rd_p=f325d01c-4658-4593-be83-3e12ca663f0e&pf_rd_r=WX4SKQWGD7ASSWH6DGA6&psc=1&refRID=WX4SKQWGD7ASSWH6DGA6'
+    link: 'https://www.amazon.com/AMD-Ryzen-3600-12-Thread-Processor/dp/B07STGGQ18/ref=pd_bxgy_img_2/130-8393161-9152612?_encoding=UTF8&pd_rd_i=B07STGGQ18&pd_rd_r=f0f5e39f-8da2-44c4-9a23-5771aa6f061a&pd_rd_w=bB3Sc&pd_rd_wg=PSRhU&pf_rd_p=f325d01c-4658-4593-be83-3e12ca663f0e&pf_rd_r=WX4SKQWGD7ASSWH6DGA6&psc=1&refRID=WX4SKQWGD7ASSWH6DGA6',
+    categoryId: 1,
   },
   {
     id: 4,
