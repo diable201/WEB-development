@@ -14,5 +14,9 @@ export const categories = [
   {
     id: 4,
     name: 'RAM'
+  },
+  {
+    id: 5,
+    name: 'Other'
   }
 ];
