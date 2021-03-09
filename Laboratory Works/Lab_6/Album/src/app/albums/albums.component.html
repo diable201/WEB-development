@@ -1,0 +1,22 @@
+<h2>Album List</h2>
+
+<link rel="stylesheet" href=
+  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<fieldset>
+  <input type="text" [(ngModel)]="newAlbum">
+  <button (click)="addAlbum()">Add Album</button>
+</fieldset>
+<ul *ngIf="loaded" class="list-group-item">
+  <li *ngFor="let album of albums">
+    <!--<a routerLink="/posts/{{post.id}}">{{post.id}}) {{post.title}}</a>-->
+    <a [routerLink]="['/albums', album.id]">{{album.id}}) {{album.title}}</a>
+    <button (click)="deleteAlbum(album.id)">
+      Delete <i class="fa fa-trash"></i>
+    </button>
+  </li>
+</ul>
+
+<p *ngIf="!loaded">Loading album list...</p>
+
+

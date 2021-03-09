@@ -1,0 +1,9 @@
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-trash {
+  color: white;
+  padding: 3px;
+}

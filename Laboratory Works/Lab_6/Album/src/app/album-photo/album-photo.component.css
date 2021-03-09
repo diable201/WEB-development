@@ -1,0 +1,24 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
