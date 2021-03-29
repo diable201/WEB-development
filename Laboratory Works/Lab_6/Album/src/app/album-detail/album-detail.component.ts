@@ -13,7 +13,7 @@ export class AlbumDetailComponent implements OnInit {
   album: Album;
   loaded: boolean;
   photos: Photo[];
-
+  name: string;
   constructor(private route: ActivatedRoute,
               private location: Location,
               private albumService: AlbumsService) {
@@ -46,6 +46,7 @@ export class AlbumDetailComponent implements OnInit {
     this.loaded = false;
     this.albumService.updateAlbum(this.album).subscribe((album) => {
       console.log(album);
+      this.album.title = this.name;
       this.loaded = true;
     });
   }

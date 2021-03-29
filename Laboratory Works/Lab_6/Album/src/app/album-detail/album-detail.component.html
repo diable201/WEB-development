@@ -1,8 +1,9 @@
 <div *ngIf="loaded">
   <h2>Album Detail #{{album.id}}</h2>
+  <h3>{{album.title}}</h3>
   <p>Edit Title Of Album</p>
   <label>
-    <input type="text" [(ngModel)]="album.title">
+    <input input="text" [(ngModel)]="name">
   </label>
   <br>
   <div class="details-buttons">
