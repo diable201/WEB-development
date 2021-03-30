@@ -11,5 +11,4 @@ if __name__ == '__main__':
     for i in student_marks[query_name]:
         sum += i
     average = sum / len(student_marks[query_name])
-print("%.2f" % average)
-
+    print("%.2f" % average)

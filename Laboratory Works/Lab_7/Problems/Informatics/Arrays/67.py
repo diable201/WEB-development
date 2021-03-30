@@ -5,4 +5,3 @@ for i in range(len(num_list) - 1):
         print("YES")
         exit()
 print("NO")
-

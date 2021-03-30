@@ -6,4 +6,4 @@ while i <= n:
         break
     else:
         i += 1
-    
+

@@ -6,6 +6,6 @@ result = []
 
 for i in range(a, b + 1):
     if i % d == c:
-       result.append(i)
+        result.append(i)
 
 print(' '.join(str(i) for i in result))
