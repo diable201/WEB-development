@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "3f682f74-61a7-422c-86d2-fd202b0a2887",
+		"name": "WD2021Spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "W10",
+			"item": [
+				{
+					"name": "Main",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/4/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										"4",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Core",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/core/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"core",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/core/products/1/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"core",
+										"products",
+										"1",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "W10 G2",
+			"item": [
+				{
+					"name": "Main",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/1/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										"1",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Core",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/core/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"core",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/core/products/5/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"core",
+										"products",
+										"5",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
