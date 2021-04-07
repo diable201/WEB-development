@@ -104,6 +104,7 @@ dist
 .tern-port
 
 # Other
+.idea
 .DS_Store
 .vscode/*
 !.vscode/settings.json
