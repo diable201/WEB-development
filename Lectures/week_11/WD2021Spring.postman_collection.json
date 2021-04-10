@@ -1,0 +1,419 @@
+{
+	"info": {
+		"_postman_id": "e67720ba-37b7-4f35-9788-2637b433de99",
+		"name": "WD2021Spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "W10",
+			"item": [
+				{
+					"name": "Main",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/4/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										"4",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Core",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/core/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"core",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/core/products/1/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"core",
+										"products",
+										"1",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "W10 G2",
+			"item": [
+				{
+					"name": "Main",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/1/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										"1",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Core",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/core/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"core",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/core/products/5/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"core",
+										"products",
+										"5",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "W11",
+			"item": [
+				{
+					"name": "Main",
+					"item": [
+						{
+							"name": "Product List",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Product Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/main/products/4/",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"main",
+										"products",
+										"4",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Core",
+					"item": [
+						{
+							"name": "Products",
+							"item": [
+								{
+									"name": "Product List",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{BASE_URL}}/core/products/",
+											"host": [
+												"{{BASE_URL}}"
+											],
+											"path": [
+												"core",
+												"products",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Product Show",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{BASE_URL}}/core/products/1/",
+											"host": [
+												"{{BASE_URL}}"
+											],
+											"path": [
+												"core",
+												"products",
+												"1",
+												""
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "API",
+					"item": [
+						{
+							"name": "Category",
+							"item": [
+								{
+									"name": "Category List",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{BASE_URL}}/api/categories/",
+											"host": [
+												"{{BASE_URL}}"
+											],
+											"path": [
+												"api",
+												"categories",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Category Show",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{BASE_URL}}/api/categories/1/",
+											"host": [
+												"{{BASE_URL}}"
+											],
+											"path": [
+												"api",
+												"categories",
+												"1",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Category Create",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\": \"category 5\"\n}\n",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{BASE_URL}}/api/categories/",
+											"host": [
+												"{{BASE_URL}}"
+											],
+											"path": [
+												"api",
+												"categories",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Category Update",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\": \"category 1 updated\"\n}\n",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{BASE_URL}}/api/categories/1/",
+											"host": [
+												"{{BASE_URL}}"
+											],
+											"path": [
+												"api",
+												"categories",
+												"1",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Category Delete",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{BASE_URL}}/api/categories/3/",
+											"host": [
+												"{{BASE_URL}}"
+											],
+											"path": [
+												"api",
+												"categories",
+												"3",
+												""
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
